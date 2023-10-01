@@ -10,6 +10,7 @@ toml
 pexpect>=4.5
 python-daemon
 pyyaml
+requests-credssp
 six
 
 dnspython
