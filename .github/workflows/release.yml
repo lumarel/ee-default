@@ -72,6 +72,7 @@ jobs:
       matrix:
         type:
           - cloud
+          - infra
           - network
           - storage
           - sync
@@ -109,6 +110,7 @@ jobs:
           - "2.15"
         type:
           - cloud
+          - infra
           - network
           - storage
           - sync
