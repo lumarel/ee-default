@@ -43,9 +43,9 @@ jobs:
     strategy:
       matrix:
         version:
-          - "2.12"
           - "2.14"
           - "2.15"
+          - "2.16"
     steps:
       - uses: actions/checkout@v3
 
@@ -113,6 +113,7 @@ jobs:
         version:
           - "2.14"
           - "2.15"
+          - "2.16"
         type:
           - cloud
           - infra
@@ -175,9 +176,9 @@ jobs:
     strategy:
       matrix:
         version:
-          - "2.12"
           - "2.14"
           - "2.15"
+          - "2.16"
     steps:
       - uses: actions/checkout@v3
 
