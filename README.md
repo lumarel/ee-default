@@ -1,6 +1,6 @@
-# AWX custom Execution Environment - default
+# AWX custom Execution Environment
 
-An Ansible execution environment for a private AWX - default set.
+This repo builds several costumized Ansible execution environments tailored for special needs.
 This repo got forked from the ansible/awx-ee repo.
 
 ## Build the image locally
