@@ -2,7 +2,7 @@ git+https://github.com/ansible/ansible-sign
 
 ncclient
 paramiko
-pyOpenSSL>22.1.0
+pyOpenSSL
 toml
 pexpect>=4.5
 python-daemon

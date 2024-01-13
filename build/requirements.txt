@@ -3,7 +3,7 @@ git+https://github.com/ansible/ansible-sign
 ncclient
 paramiko
 pykerberos
-pyOpenSSL>22.1.0
+pyOpenSSL
 pypsrp[kerberos,credssp]
 pywinrm[kerberos,credssp]
 toml
