@@ -8,6 +8,6 @@ collections:
   - name: community.general
   - name: https://github.com/lumarel/community.vmware.git
     type: git
-    version: feature/dvswitch_netflow_switchip
+    version: feature/dvswitch_netflow_switchip_dev
   - name: netapp.ontap
   - name: vmware.vmware_rest
