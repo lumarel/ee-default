@@ -84,6 +84,7 @@ jobs:
         type:
           - cloud
           - infra
+          - inventory
           - network
           - storage
           - sync
@@ -119,6 +120,7 @@ jobs:
         type:
           - cloud
           - infra
+          - inventory
           - network
           - storage
           - sync
