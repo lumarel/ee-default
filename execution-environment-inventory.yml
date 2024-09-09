@@ -8,7 +8,7 @@ dependencies:
     package_pip: ansible-core<2.17
   ansible_runner:
     package_pip: ansible-runner
-  galaxy: build/requirements-network.yml
+  galaxy: build/requirements-inventory.yml
   python: build/requirements.txt
   system: build/bindep-3.11.txt
   python_interpreter:

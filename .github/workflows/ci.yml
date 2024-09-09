@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Build latest in Podman
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
@@ -30,9 +30,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Build latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
@@ -57,10 +57,11 @@ jobs:
           - "2.14"
           - "2.15"
           - "2.16"
+          - "2.17"
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
@@ -83,14 +84,14 @@ jobs:
         type:
           - cloud
           - infra
-          - infradev
+          - inventory
           - network
           - storage
           - sync
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
@@ -115,16 +116,18 @@ jobs:
           - "2.14"
           - "2.15"
           - "2.16"
+          - "2.17"
         type:
           - cloud
           - infra
+          - inventory
           - network
           - storage
           - sync
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
@@ -143,9 +146,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Build lint latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
@@ -170,10 +173,11 @@ jobs:
           - "2.14"
           - "2.15"
           - "2.16"
+          - "2.17"
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
