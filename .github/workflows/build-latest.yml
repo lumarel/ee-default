@@ -77,7 +77,6 @@ jobs:
         type:
           - cloud
           - infra
-          - infradev
           - network
           - storage
           - sync
