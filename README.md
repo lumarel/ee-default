@@ -1,7 +1,8 @@
 # AWX custom Execution Environment
 
 This repo builds several costumized Ansible execution environments tailored for special needs.
-This repo got forked from the ansible/awx-ee repo.
+
+A lot of the ideas, process and method comes from the upstream repository [ansible/awx-ee](https://github.com/ansible/awx-ee).
 
 ## Build the image locally
 
