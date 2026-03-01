@@ -9,7 +9,7 @@ dependencies:
   ansible_runner:
     package_pip: ansible-runner
   galaxy: build/requirements-sync.yml
-  python: build/requirements-sync.txt
+  python: build/requirements-sync-3.9.txt
   system: build/bindep-3.9.txt
 additional_build_steps:
   append_base:

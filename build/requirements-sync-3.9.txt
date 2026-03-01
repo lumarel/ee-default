@@ -1,0 +1,10 @@
+git+https://github.com/ansible/ansible-sign@v0.1.2
+
+ncclient
+paramiko
+pyOpenSSL
+toml
+pexpect>=4.5
+python-daemon
+pyyaml
+six
