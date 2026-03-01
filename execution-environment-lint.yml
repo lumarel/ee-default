@@ -9,7 +9,7 @@ options:
   user: root
 dependencies:
   ansible_core:
-    package_pip: ansible-core<2.19
+    package_pip: ansible-core<2.20
   ansible_runner:
     package_pip: ansible-runner
   galaxy: build/requirements-lint.yml

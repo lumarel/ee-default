@@ -47,6 +47,7 @@ jobs:
           - "2.16"
           - "2.18"
           - "2.19"
+          - "2.20"
     steps:
       - uses: actions/checkout@v4
 
@@ -116,6 +117,7 @@ jobs:
           - "2.16"
           - "2.18"
           - "2.19"
+          - "2.20"
         type:
           - cloud
           - infra
@@ -183,6 +185,7 @@ jobs:
           - "2.16"
           - "2.18"
           - "2.19"
+          - "2.20"
     steps:
       - uses: actions/checkout@v4
 

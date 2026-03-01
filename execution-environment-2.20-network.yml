@@ -5,10 +5,10 @@ images:
     name: quay.io/rockylinux/rockylinux:10
 dependencies:
   ansible_core:
-    package_pip: ansible-core<2.20
+    package_pip: ansible-core==2.20.*
   ansible_runner:
     package_pip: ansible-runner
-  galaxy: build/requirements-inventory.yml
+  galaxy: build/requirements-network.yml
   python: build/requirements.txt
   system: build/bindep-3.12.txt
   python_interpreter:
