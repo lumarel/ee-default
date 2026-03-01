@@ -12,7 +12,7 @@ dependencies:
     package_pip: ansible-core==2.14.*
   ansible_runner:
     package_pip: ansible-runner
-  galaxy: build/requirements-lint.yml
+  galaxy: build/requirements-lint-3.9.yml
   python: build/requirements-lint-3.9.txt
   system: build/bindep-3.9.txt
 additional_build_steps:
