@@ -9,7 +9,7 @@ dependencies:
   ansible_runner:
     package_pip: ansible-runner
   galaxy: build/requirements-network.yml
-  python: build/requirements.txt
+  python: build/requirements-network.txt
   system: build/bindep-3.12.txt
   python_interpreter:
     package_system: "python3.12"
